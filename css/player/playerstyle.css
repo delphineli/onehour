@@ -1,0 +1,327 @@
+@charset "utf-8";
+body {
+  margin:0px;
+  background-image:url('http://www.pptbackground.net/background/Vintage-background-texture-for-Powerpoint-Templates.jpg');
+  background-position:center top;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  position:relative;
+  text-align:left;
+  height: 100%;
+  width:100%;
+}
+
+
+div#player{ 
+    float:right;
+	max-height: 54px;
+	}
+div#position{
+	}
+
+#bnav{
+	color:#777777;
+	font-size:15px;
+	font-family:黑体;
+	cursor: pointer;
+}
+
+	
+div.play{
+	background-image: url(images/buttoms/pl.png);
+	background-size:50%;
+	background-position:14.5px 11px;
+	background-color:rgba(102,102,102,0.3);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+    display: inline-block;	margin-top: 4px;
+	cursor: pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+div.play:hover{
+	background-image: url(images/buttoms/pl1.png);
+	background-size:50%;
+	background-position:14.5px 11px;
+	background-color:rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+    display: inline-block;	margin-top: 4px;
+	cursor:pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+	
+div.pause{
+	background-image: url(images/buttoms/p1.png);
+	background-size:60% 55%;
+	background-position:10px 12px;
+	background-color:rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+    display: inline-block;	margin-top: 4px;
+	cursor:pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+div.pause:hover{
+	background-image: url(images/buttoms/p11.png);
+	background-size:60% 55%;
+	background-position:10px 12px;
+	background-color:rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+    display: inline-block;	margin-top: 4px;
+	cursor:pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+	
+div.volume4{
+	background-image: url(images/buttoms/buttoms.png);
+	background-size: 334px 25px;
+	background-position: -256px 13px;
+	background-color: rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	display: inline-block;	margin-top: 4px;
+	cursor: pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	}
+div.volume4:hover{
+	background-image: url(images/buttoms/buttoms.png);
+	background-size: 334px 25px;
+	background-position:-212px 13px;
+	background-color:rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	border-left:4px solid #FFF;
+	border-right:4px solid #FFF;
+    display: inline-block;	margin-top: 4px;
+	cursor:pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+	
+div.volume3{
+	background-image: url(images/buttoms/buttoms.png);
+	background-size: 334px 25px;
+	background-position:-79px 13px;
+	background-color:rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+    display: inline-block;	margin-top: 4px;
+	cursor:pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+div.volume3:hover{
+	background-image: url(images/buttoms/buttoms.png);
+	background-size: 334px 25px;
+	background-position:-35px 13px;
+	background-color:rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	border-left:4px solid #FFF;
+	border-right:4px solid #FFF;
+    display: inline-block;	margin-top: 4px;
+	cursor:pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+div.volume2{
+	background-image: url(images/buttoms/buttoms.png);
+	background-size: 334px 25px;
+	background-position:9px 13px;
+	background-color:rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+    display: inline-block;	margin-top: 4px;
+	cursor:pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+div.volume2:hover{
+	background-image: url(images/buttoms/buttoms.png);
+	background-size: 334px 25px;
+	background-position:-300px 13px;
+	background-color:rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	border-left:4px solid #FFF;
+	border-right:4px solid #FFF;
+    display: inline-block;	margin-top: 4px;
+	cursor:pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+	
+div.volume1{
+	background-image: url(images/buttoms/buttoms.png);
+	background-size: 334px 25px;
+	background-position:-168px 13px;
+	background-color:rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+    display: inline-block;	margin-top: 4px;
+	cursor:pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+div.volume1:hover{
+	background-image: url(images/buttoms/buttoms.png);
+	background-size: 334px 25px;
+	background-position:-123px 13px;
+	background-color: rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	border-left: 4px solid #FFF;
+	border-right: 4px solid #FFF;
+    display: inline-block;	margin-top: 4px;
+	cursor: pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+	
+div.next{
+	background-image: url(images/buttoms/n.png);
+	background-size: 23px 25px;
+	background-position:15px 13px;
+	background-color: rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+    display: inline-block;	margin-top: 4px;
+	cursor: pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+div.next:hover{
+	background-image: url(images/buttoms/n1.png);
+	background-size: 23px 25px;
+	background-position:15px 13px;
+	background-color: rgba(255,255,255,0.7);
+	background-repeat: no-repeat;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+    display: inline-block;	margin-top: 4px;
+	cursor: pointer;
+	border: 1px solid #FFF;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+图片查看器
+	
+div#container{
+	height:80%;
+	width: 100%;
+	overflow: auto;
+	margin-left: auto;
+    margin-right: auto;
+    }
+	
+div#slider{
+    display: block;
+	height:36.4vw;
+	width: 105vw;
+	overflow: hidden;
+    position: static;	
+	margin-left: auto;
+    margin-right: auto;
+	}
+div#slider2{
+    display: block;
+	height:36.4vw;
+	width: 105vw;
+	overflow: hidden;
+    position: static;	
+	margin-left: auto;
+    margin-right: auto;
+	}
+#owl-demo .item {
+    display: block;
+    margin: 5px;
+}
+#owl-demo img {
+    display: block;
+
+}
+div#slider>img {
+    height:100%;
+    width:80%;
+}
+	
+//休息按钮
+div#button{
+	width: 100px;
+	height: 54px;
+	border: 1px solid #FFF;
+	border-radius: 3px;
+
+	}
+
+div#button:hover{
+	width: 100px;
+	height: 54px;
+	border: 1px solid #FFF;
+	border-radius: 3px;
+	background:rgba(204,204,204,0.2);
+	transition:0.1s all;
+	}
+	
+a#buttonword{
+	text-align: center;
+	line-height: 54px;
+	color: rgba(255,255,255,0.9);
+	width: 100px;
+	height: 54px;
+	font-family: "黑体";
+	font-size: 18px;
+	display: block;
+    text-decoration: none;
+	cursor: pointer;
+	}
+
